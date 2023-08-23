@@ -1,0 +1,117 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    /* display: flex; */
+}
+
+h1,
+h3 {
+    padding: 7% 0 9%;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 0 0 5%;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+p,
+span {
+    font-size: 1.2rem;
+}
+.container-fluid{
+    background-color: rgb(250, 252, 252);
+    
+}
+.navbar{
+    position: relative;
+}
+.nav-item {
+    padding: 0 10px;
+    text-align: right;
+    
+}
+
+.nav-btn {
+    padding: 0 10px;
+}
+
+
+/* title */
+#title {
+    background-color: rgba(95, 144, 189, 0.526);
+    background-image: url(/image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    width: 100%;
+}
+
+.title-txt {
+    text-align: center;
+    padding: 5%;
+}
+
+.SehatID-btn {
+    margin: 5% 0 9%;
+
+
+}
+
+.health {
+    padding: 10% 0;
+    margin-left: 12%;
+    width: 65%;
+}
+
+/* about */
+
+#about {
+    text-align: center;
+    padding: 7% 8%;
+    justify-content: center;
+}
+
+.card-header {
+    font-size: 1.2rem;
+}
+
+.cb-pad {
+    padding: 7%;
+}
+
+.card-pad {
+    padding-bottom: 5%;
+}
+
+/* features */
+#features {
+    text-align: center;
+    margin: 0;
+    padding: 7% 8%;
+    background-color: rgb(52, 136, 214);
+}
+
+/* caraousel */
+.carousel-btn {
+    padding: 0;
+}
+
+/* footer */
+#footer{
+    padding: 4% 0 2%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.footer-logo{
+    padding: 0 15px;
+}

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sehat+ 2.0</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/35f2d8091a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Title -->
+    <div class="container-fluid bg-transparant">
+        <nav class="navbar navbar-dark">
+            <img style="width: 150px;" src="image/logo_black_transparent.png " alt="">
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item">
+                    <p>
+                        <a class="btn btn-outline-dark" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                            aria-expanded="false" aria-controls="collapseExample1">
+                            Patient
+                        </a>
+                        <a class="btn btn-dark" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Doctor
+                        </a>
+                    </p>
+
+                    <div class="collapse dropdown" id="collapseExample1">
+
+                        <div class="card card-body ms-auto">
+
+                            <a class="dropdown-item btn btn-outline-success nav-item" href="userreg">Patient
+                                Registration</a>
+                            <a class="dropdown-item btn btn-outline-success nav-item" href="userlogin">Patient Login</a>
+                        </div>
+
+
+                    </div>
+                    <div class="collapse dropdown" id="collapseExample" style="padding-left: 3px;">
+
+                        <div class="card card-body ms-auto">
+
+                            <a class="dropdown-item btn btn-outline-success nav-item" href="drreg">Doctor
+                                Registration</a>
+                            <a class="dropdown-item btn btn-outline-success nav-item" href="drlogin">Doctor Login</a>
+                        </div>
+
+                    </div>
+
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <section id="title">
+        <div class="row">
+            <div class="col-lg-6 title-txt">
+                <h1 data-text="SEHAT+">SEHAT+</h1>
+                <p>A digitally-facilitated healthcare ecosystem to support universal healthcare in an organized and
+                    secure manner.</p>
+                <button class="btn btn-success SehatID-btn">Create SehatID</button>
+                <br>
+                <span>Already have an account?</span>
+                <button class="btn btn-light title-login-btn">Login</button>
+            </div>
+            <div class="col-lg-6" style="padding: 0;">
+                <img class="health" src="image/digital_healthcare.png" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 data-aos="fadeInUp">ABOUT</h2>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 card-pad" data-aos="fade-right">
+                <div class="card">
+                    <div class="card-header">
+                        Less Paperwork
+                    </div>
+                    <div class="card-body cb-pad" style="background-color: orange;">
+                        <p>By digitalising
+                            medical records,
+                            users will no
+                            longer need to
+                            carry physical
+                            files</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 col-md-6 card-pad" data-aos="fade-up">
+                <div class="card">
+                    <div class="card-header">
+                        Easy to access
+                    </div>
+                    <div class="card-body">
+
+                        <p>The medical records are
+                            now sorted and well
+                            structured manner.
+                            Finding the required files
+                            in the user's medical
+                            record would be easy</p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 card-pad" data-aos="fade-left">
+                <div class="card">
+                    <div class="card-header">
+                        Easy online Consulation
+                    </div>
+                    <div class="card-body cb-img cb-pad" style="background-color: darkgreen;">
+                        <p>Users can
+                            consult doctors
+                            from anywhere
+                            online easily and
+                            comfortably.
+                        </p>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="features">
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true" data-interval="500" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h3>Unique Sehat+ ID</h3>
+                    <p>Every registered user will have their own unique Sehat+ ID that is linked with their Aadhar ID.
+                    </p>
+                    <img src="" alt="" style="width: 30% ;">
+                </div>
+                <div class="carousel-item">
+                    <h3>Digital Medical Records</h3>
+                    <p>Upon initial registration, previous medical records can be uploaded and can be accessed by the
+                        doctors upon visit</p>
+                    <img src="" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <h3>Updatable Reports and Prescriptions</h3>
+                    <p>Doctors can directly upload medical records and prescriptions on Sehat+ dashboard</p>
+                    <img src="" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <h3>Online Consulation</h3>
+                    <p>Users can consult doctors online through the Sehat+ dashboard and consulations reports can be
+                        accessed</p>
+                    <img src="" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next carousel-btn" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+
+
+
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            offset: 200,
+            once: false,
+        });
+    </script>
+
+<footer id="footer">
+    <a href="" style="color: black;" class="footer-logo"><i class="fa-brands fa-github fa-2x"></i></a>
+    <a href="" style="color: black;" class="footer-logo"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    <a href="" style="color: black;" class="footer-logo"><i class="fa-brands fa-instagram fa-2x"></i></a>
+    <a href="" style="color: black;" class="footer-logo"><i class="fa-brands fa-twitter fa-2x"></i></a>
+</footer>
+</body>
+
+</html>

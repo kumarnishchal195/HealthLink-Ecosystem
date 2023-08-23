@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/drreg.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <label for="">
+        <img style="width: 200px;" src="image/logo_black_transparent.png" alt="">
+        <!-- <h1 style="margin: 15px; color: #fff;">SEHAT <span style="color:yellow;">+</span></h1> -->
+    </label>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 col-sm-8 text-center login ">
+                <form action="/drreg" method="post">
+
+                
+                <h1>Doctor Registration</h1>
+                <input type="text" id="username" class="form-control" name="name" placeholder="username">
+                <small id="username_error"></small>
+                <input type="email" id="email" class="form-control" name="email" placeholder="email">
+                <small id="email_error"></small>
+                <input type="password" id="password" class="form-control" name="password" placeholder="password">
+                <small id="password_error"></small>
+                <input type="password" id="cpassword" class="form-control" name ="cpassword" placeholder="confirm password">
+                <small id="cpassword_error"></small>
+                <input type="text" id="doctorid" class="form-control" name="doctorid" placeholder="Doctor Id">
+                <small id="doctorid"></small>
+                <br>
+                <button class="btn btn-outline-success" type="submit"">Register</button>
+                </form>    
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>

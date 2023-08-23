@@ -1,0 +1,17 @@
+.login{
+    margin-top: 150px !important;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    background-image: linear-gradient(to right, #fcfcfc 0%, #2fad5fa5 19%, #eaf0f1 42%, #23a05f81 79%, #f4f6f6 100%);
+
+}
+input{
+    padding: 20px !important;
+    margin: 10px !important;
+    font-weight:600 !important;
+}
+body{
+    background-color: rgb(1, 151, 76) !important;
+}

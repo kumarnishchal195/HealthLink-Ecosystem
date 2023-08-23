@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/drreg.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <label for="">
+        <img style="width: 200px;" src="image/logo_black_transparent.png" alt="">
+        <!-- <h1 style="margin: 15px; color: #fff;">SEHAT <span style="color:yellow;">+</span></h1> -->
+    </label>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-10 col-sm-8 text-center login ">
+                <form action="/userlogin" method="post">
+                    <h1>User Login</h1>
+                    <input type="text" id="aadhar" class="form-control" placeholder="aadhar" name="aadhar">
+                    <small id="username_error"></small>
+                    <input type="text" id="phoneno" class="form-control" placeholder="phoneno" name="phoneno">
+                    <small id="username_error"></small>
+                    <button type="submit" class="btn btn-outline-success" onclick="validate()">Login</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
